@@ -118,4 +118,4 @@ Use [the coverage matrix](docs/coverage-matrix.md) to track the official objecti
 
 ## Current-source policy
 
-Microsoft primary documentation is authoritative for this project. PDFs that previously lived in `Labs/` and `Resources/` have been moved to `archive/legacy-pdfs/` because they are static snapshots and can age silently. The live [resources index](resources/current-links.md) is the maintained source list.
+Microsoft primary documentation is authoritative for this project. The live [resources index](resources/current-links.md) is the maintained source list.
