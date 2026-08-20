@@ -1,0 +1,28 @@
+{
+  "Name": "NCES Network Diagnostics Operator",
+  "IsCustom": true,
+  "Description": "Read Azure networking configuration and perform Network Watcher verification and connection troubleshooting without modifying network resources.",
+  "Actions": [
+    "Microsoft.Network/*/read",
+    "Microsoft.Compute/virtualMachines/read",
+    "Microsoft.Compute/virtualMachineScaleSets/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Network/networkWatchers/connectivityCheck/action",
+    "Microsoft.Network/networkWatchers/connectivityCheck/read",
+    "Microsoft.Network/networkWatchers/queryTroubleshootResult/action",
+    "Microsoft.Network/networkWatchers/troubleshoot/action",
+    "Microsoft.Network/networkWatchers/ipFlowVerify/action",
+    "Microsoft.Network/networkWatchers/ipFlowVerify/read",
+    "Microsoft.Network/networkWatchers/nextHop/action",
+    "Microsoft.Network/networkWatchers/nextHop/read",
+    "Microsoft.Network/networkWatchers/securityGroupView/action",
+    "Microsoft.Network/networkWatchers/topology/action",
+    "Microsoft.Network/networkWatchers/topology/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/<SUBSCRIPTION_ID>"
+  ]
+}
